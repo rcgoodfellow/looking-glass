@@ -5,7 +5,7 @@ edition = "2021"
 
 [dependencies]
 p4rs = { git = "https://github.com/oxidecomputer/p4" }
-p4-macro = { path = "/users/ry/src/p4/lang/p4-macro" }
+p4-macro = { git = "https://github.com/oxidecomputer/p4" }
 socket2 = { version = "0.4", features = ["all"] }
 bitvec = "1.0"
 colored = "2.0"
